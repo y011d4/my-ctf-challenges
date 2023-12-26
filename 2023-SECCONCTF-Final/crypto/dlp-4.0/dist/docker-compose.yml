@@ -1,0 +1,8 @@
+version: '3'
+services:
+  server:
+    build: .
+    working_dir: /home/sage
+    ports:
+      - "8888:8888"
+    restart: always
